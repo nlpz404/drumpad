@@ -1,0 +1,56 @@
+<body>
+  <section id='pad'>
+    <h1>DrumPad</h1>
+    <div id='top'>
+      <button id='Snare'>Snare<br>click / 'Q'</button>
+      <button id='HiHat'>Hi-Hat<br>click /  'P'</button>
+    </div>
+  
+    <div id='bottom'>
+      <button id='Kick'>Kick<br>click / 'Space'</button>
+    </div>
+  </section>
+  
+  <section id='sequencer'>
+    <h1>Sequencer</h1>
+    <div class="stepHiHat">
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+    </div>
+  
+    <div class="stepSnare">
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+    </div>
+  
+    <div class="stepKick">
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+      <input class="steps" type="checkbox" />
+    </div>
+
+    <div class="stepCtrl">
+      <button id="stepStart" class="control-button">Play</button>
+      <button id="stepStop" class="control-button">Stop</button>
+      <input type="range" id="sliderBpm" class="slider" min="40" max="208" step="2" value="120"/>
+      <output id="valBpm"></output>
+    </div>
+  </section>
+</body>
