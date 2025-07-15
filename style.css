@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  font-family: monospace
+}
+
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  min-height: 50%
+}
+
+div{
+  display: flex;
+/*   flex-flow: row nowrap; */
+/*   align-items: stretch; */
+/*   min-height: 50% */
+}
+
+button{
+  flex-grow:1;
+  color: black;
+  background-color: #474747;
+  border: 2vmin solid #303030;
+  opacity: 1;
+  margin: 1%;
+  font-size: 8vmin;
+}
+
+button:active{
+  opacity: 0.7;
+}
+
+#sequencer {
+  justify-content: center;
+  align-items: center;
+}
+
+.steps {
+  height: 10vmin;
+  width: 10vmin;
+}
+
+.slider{
+  width:50%;
+}
+
+#valBpm{
+  color: white;
+  font-size:7vmin;
+}
+
+h1 {
+  color: white;
+  font-size: 5vmin;
+  text-align:center
+}
